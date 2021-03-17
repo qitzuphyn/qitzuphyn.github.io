@@ -3,26 +3,35 @@ body {
   background-color: #212121 !important;
   margin: 0;
 }
+.divider{
+  margin: 25px;
+  background-color: #616161;
+  height: 1.5px;
+  width: 95%;
+  align-self: center;
 
+}
 .wide{
-
   width: 100vw !important;
   display: flex;
   justify-content: center;
 }
 .contents{
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1300px;
 }
 .head{
   margin-top: 0px !important;
-  max-width: 1600px !important;
+
   width: 80vw;
 }
 .avatar{
   display: flex !important;
   align-items: center !important;
-justify-content: center;
+  justify-content: center;
 }
 
 .lw{
@@ -37,4 +46,24 @@ justify-content: center;
 .yeh{
   display: flex !important;
   align-items: center !important;
+}
+.m-content{
+  font-size: 18px;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer{
+  width: 100vw;
+  position: fixed;
+  height: 50px;
+  background-color: #e0e0e0;
+  color: black;
+  text-align: center;
+  bottom: 0;
+}
+footer p {
+  margin-top: 15px !important;
 }
