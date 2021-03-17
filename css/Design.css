@@ -1,0 +1,40 @@
+body {
+  color: white !important;
+  background-color: #212121 !important;
+  margin: 0;
+}
+
+.wide{
+
+  width: 100vw !important;
+  display: flex;
+  justify-content: center;
+}
+.contents{
+  display: flex;
+  flex-direction: row;
+}
+.head{
+  margin-top: 0px !important;
+  max-width: 1600px !important;
+  width: 80vw;
+}
+.avatar{
+  display: flex !important;
+  align-items: center !important;
+justify-content: center;
+}
+
+.lw{
+  font-size: 40px;
+  margin: 0;
+  display: flex !important;
+  align-items: center !important;
+}
+.image_main{
+  border-radius: 50%;
+}
+.yeh{
+  display: flex !important;
+  align-items: center !important;
+}
