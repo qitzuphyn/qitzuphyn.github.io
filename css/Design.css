@@ -56,14 +56,21 @@ body {
 .nav-butons{
   margin: 20px;
 }
-.haiti{
+.haiku{
   display: flex;
   flex-direction: row;
 }
-.haiti div{
-  margin: 30px;
+.haiku img{
+  margin-top: -120px;
+  margin-right: 20px;
 }
-.haiti img{
+.haiku .haiku-text{
+  margin: 40px;
+}
+.haiku .haiku-text #poemLine{
+  margin: 0px;
+}
+.haiku img{
   height: 500px;
 }
 footer{
