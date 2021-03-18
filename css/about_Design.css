@@ -21,7 +21,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  max-width: 1300px;
+  max-width: 950px;
 }
 .head{
   margin-top: 0px !important;
@@ -51,21 +51,12 @@ body {
   text-align: justify;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: justify;
 }
 .nav-butons{
   margin: 20px;
 }
-.haiti{
-  display: flex;
-  flex-direction: row;
-}
-.haiti div{
-  margin: 30px;
-}
-.haiti img{
-  height: 500px;
-}
+
 footer{
   width: 100vw;
   position: sticky;

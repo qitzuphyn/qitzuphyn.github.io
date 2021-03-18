@@ -43,6 +43,10 @@ body {
 .image_main{
   border-radius: 50%;
 }
+.yeh{
+  display: flex !important;
+  align-items: center !important;
+}
 .contents a{
   margin-top: 15px;
   margin-bottom: 15px;
