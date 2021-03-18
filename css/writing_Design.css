@@ -25,6 +25,7 @@ body {
 }
 .head{
   margin-top: 0px !important;
+  margin-bottom: 20px !important;
   width: 80vw;
 }
 .avatar{
@@ -42,21 +43,49 @@ body {
 .image_main{
   border-radius: 50%;
 }
-.yeh{
-  display: flex !important;
-  align-items: center !important;
+.contents a{
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
-.m-content{
-  font-size: 18px;
-  text-align: justify;
+#writercards{
+  width: 65vw;
+  max-width: 1000px;
+  background-color: #333333;
+  border-bottom: 2px solid #141414;
+  border-right: 2px solid #141414;
+  border-radius: 0px;
+  box-shadow: none;
+}
+#writercards .content{
+  color: white;
   display: flex;
-  flex-direction: column;
+
   align-items: center;
 }
-.nav-butons{
-  margin: 20px;
+#writercards .content h3, #writercards .content .meta{
+  margin: 10px
 }
-
+#writercards .content .nametext{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ #writercards .content .meta{
+   color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: flex-start;
+   margin-left: auto;
+}
+#writercards .content button{
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px ;
+  height: 35px;
+}
 footer{
   width: 100vw;
   position: sticky;
