@@ -1,7 +1,14 @@
+@font-face {
+  font-family: "Nikosh";
+  src: url('../src/Nikosh.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   color: white !important;
   background-color: #212121 !important;
   margin: 0;
+
 }
 .divider{
   margin: 25px;
