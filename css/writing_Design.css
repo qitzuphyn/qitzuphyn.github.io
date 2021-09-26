@@ -22,6 +22,7 @@ body {
   align-items: center;
   flex-direction: column;
   max-width: 1300px;
+
 }
 .head{
   margin-top: 0px !important;
@@ -47,13 +48,18 @@ body {
   display: flex !important;
   align-items: center !important;
 }
-.contents a{
-  margin-top: 15px;
-  margin-bottom: 15px;
+.contentinner{
+  padding-left: 20vw;
+  padding-right: 20vw;
+  background: url('../src/tiki temp.png')
+    repeat fixed 0%;
 }
+
 #writercards{
   width: 65vw;
   max-width: 1000px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   background-color: #333333;
   border-bottom: 2px solid #141414;
   border-right: 2px solid #141414;
@@ -91,8 +97,7 @@ body {
   height: 35px;
 }
 footer{
-  width: 100vw;
-  position: sticky;
+  width: 10020vw
   height: 50px;
   background-color: #e0e0e0;
   color: black;
